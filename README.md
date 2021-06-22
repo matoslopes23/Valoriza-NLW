@@ -2,6 +2,28 @@
 
 ## Descrição
 
+## Regras de Negocio
+
+- Cadastro de Usuario
+
+    [ x ] Não é permitido cadastrar mais de um usuario com o mesmo email
+
+    [ x ] Não é permitido cadastrar usuário sem o email
+
+- Cadastro de TAG
+
+    [ ] Não é permitido cadastrar TAG com o mesmo nome
+
+    [ ] Não é permitido cadastrar TAG sem nome
+
+    [ ] Não é permitido cadastro por usuarios que não são administradores 
+
+- Cadastro de elogios 
+    [ ] Não é permitido cadastrar elogios para si
+
+    [ ] Não é permitido cadastrar elogios para usuarios inválidos
+
+    [ ] Usuario precisa esta autenticado na aplicação
 
 ## Pré requisito para rodar a aplicação
 
