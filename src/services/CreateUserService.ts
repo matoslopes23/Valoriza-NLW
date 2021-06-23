@@ -1,5 +1,5 @@
 import { getCustomRepository } from 'typeorm'
-import { UserRepositores } from "../repositories/UserRepositores"
+import { UserRepositores } from "../repositories/UserRepositories"
 
 
 interface IUserRequest {
@@ -16,7 +16,7 @@ class CreateUserService {
         }
 
         const userAlreadyExists = await userRepositores.findOne({
-            email
+            email,
         });
 
         if(userAlreadyExists){

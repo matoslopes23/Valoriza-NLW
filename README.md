@@ -12,9 +12,9 @@
 
 - Cadastro de TAG
 
-    [ ] Não é permitido cadastrar TAG com o mesmo nome
+    [ x ] Não é permitido cadastrar TAG com o mesmo nome
 
-    [ ] Não é permitido cadastrar TAG sem nome
+    [ x ] Não é permitido cadastrar TAG sem nome
 
     [ ] Não é permitido cadastro por usuarios que não são administradores 
 
