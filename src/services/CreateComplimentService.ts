@@ -32,7 +32,7 @@ class CreateComplimentsService {
             user_receiver,
             user_sender,
             message
-        })
+        });
 
         await complimentsRepositories.save(compliment);
 

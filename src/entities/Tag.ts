@@ -2,6 +2,8 @@ import { Column, CreateDateColumn, Entity, PrimaryColumn, UpdateDateColumn } fro
 
 import {v4 as uuidV4} from 'uuid'
 
+import { Expose } from "class-transformer";
+
 @Entity("tags")
 class Tag {
 
@@ -16,6 +18,11 @@ class Tag {
 
     @UpdateDateColumn()
     updated_at:Date;
+
+    @Expose({name:"name_custom"})
+    nameCustom():string {
+        return `#${this.name}`
+    }
 
     constructor(){
         if(!this.id){
